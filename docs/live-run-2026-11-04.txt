@@ -1,0 +1,15 @@
+mkt_report.sync ga4 sync ok: {'ga4_daily': 63, 'ga4_weekly_users': 9, 'ga4_pages_daily': 756} in 4 API calls
+mkt_report.sync gsc sync ok: {'gsc_daily': 60, 'gsc_queries_daily': 900} in 3 API calls
+mkt_report.sync meta sync ok: {'meta_daily': 182} in 2 API calls
+sync ga4: ok, {"ga4_daily": 63, "ga4_weekly_users": 9, "ga4_pages_daily": 756}, 4 API calls
+sync gsc: ok, {"gsc_daily": 60, "gsc_queries_daily": 900}, 3 API calls
+sync meta: ok, {"meta_daily": 182}, 2 API calls
+summary (claude):
+Traffic and key events grew this week, but Search Console data is only partial and Meta Ads returns weakened.
+Good: Website sessions were 4,056, up 12.2% on last week, and key events rose 26.4% to 91.
+Watch: Meta Ads return on ad spend fell 27.9% to 3.98 as spend rose 10.2% to 597.63, with conversions down 3.3%. Search Console has only 4 of 7 days, so its week is incomplete and its clicks and impressions are not a full-week comparison.
+Next step: Review the Autumn Sale - Prospecting campaign, which spent 322.89 with a return of 2.66, and consider shifting budget toward Retargeting - Site Visitors, which returned 8.83.
+figure check: all figures found in the data
+wrote out/mock/marketing-report-2026-10-26.pdf
+wrote out/mock/dashboard.html
+wrote out/mock/kpis.json

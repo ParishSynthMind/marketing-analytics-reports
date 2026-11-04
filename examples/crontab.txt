@@ -1,0 +1,4 @@
+# Sync every morning, send the weekly report on Monday, check for a stalled sync every 6 hours.
+15 6 * * *    cd /opt/marketing-analytics-reports && examples/run.sh sync
+30 7 * * 1    cd /opt/marketing-analytics-reports && examples/run.sh report --email
+0 */6 * * *   cd /opt/marketing-analytics-reports && examples/run.sh check

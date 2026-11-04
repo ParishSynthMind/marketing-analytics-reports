@@ -1,0 +1,11 @@
+target-version = "py39"
+line-length = 140
+extend-exclude = [".venv"]
+
+[lint]
+select = ["E", "F", "W", "I", "B"]
+ignore = ["E731"]  # a few one-line lambdas for headers and formatters
+
+[lint.per-file-ignores]
+"mkt_report/dashboard.py" = ["E501"]  # inline HTML, CSS and SVG templates
+"scripts/render_media.py" = ["E501"]  # inline HTML

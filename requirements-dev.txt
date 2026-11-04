@@ -1,0 +1,5 @@
+pytest>=8
+responses>=0.25
+pypdf>=4
+cryptography>=41
+ruff>=0.6
