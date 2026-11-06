@@ -6,7 +6,7 @@ on:
 
 jobs:
   sqlite:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       matrix:
         python-version: ["3.9", "3.12"]
@@ -22,7 +22,7 @@ jobs:
         run: python -m mkt_report run --mock --no-ai --db sqlite:///ci.db --out out
 
   postgres:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     services:
       postgres:
         image: postgres:16
